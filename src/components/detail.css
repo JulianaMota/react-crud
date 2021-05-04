@@ -1,0 +1,42 @@
+.layout {
+  background-color: #fff;
+  padding: 20px;
+  display: grid;
+  box-sizing: border-box;
+  max-width: 600px;
+  margin: auto;
+}
+
+h2 {
+  color: #000;
+  font-size: 20px;
+}
+img {
+  z-index: 1;
+}
+.price {
+  z-index: 2;
+}
+.bolder {
+  font-weight: bold;
+  font-size: 18px;
+}
+.desc-text {
+  font-size: 14px;
+  font-weight: 100;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 30px;
+}
+.tags li {
+  background-color: #888;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 13px;
+  margin: 5px;
+}
